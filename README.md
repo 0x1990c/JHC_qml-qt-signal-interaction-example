@@ -7,9 +7,8 @@ QML, QT interaction with signal example (using PyQt)
 See <a href="https://doc.qt.io/qt-6/qtquickcontrols-index.html#versions">more information here</a> about the version of Qt, QtQuick, etc.
 
 ## Install
-* via pip
-
-`python -m pip install git+https://github.com/yjg30737/qml-qt-signal-interaction-example.git --upgrade`
-* clone
-
 `git clone https://github.com/yjg30737/qml-qt-signal-interaction-example.git`
+
+## Preview
+
+https://user-images.githubusercontent.com/55078043/197387063-20e8706b-2ab3-412a-ad74-9164991cca34.mp4
