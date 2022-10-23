@@ -21,3 +21,5 @@ See <a href="https://doc.qt.io/qt-6/qtquickcontrols-index.html#versions">more in
 ## Preview
 
 https://user-images.githubusercontent.com/55078043/197387063-20e8706b-2ab3-412a-ad74-9164991cca34.mp4
+
+Slider's style in this preview is Material.
