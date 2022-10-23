@@ -1,0 +1,1 @@
+from qml_qt_signal_interaction_example.main import Window
