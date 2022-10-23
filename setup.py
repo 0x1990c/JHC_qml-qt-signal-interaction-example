@@ -8,7 +8,7 @@ setup(
     author_email='yjg30737@gmail.com',
     license='MIT',
     packages=find_packages(),
-    package_data={'qml-qt-signal-interaction-example': ['slider.qml']},
+    package_data={'qml_qt_signal_interaction_example': ['slider.qml']},
     description='QML, QT interaction example using signal',
     url='https://github.com/yjg30737/qml-qt-signal-interaction-example.git',
     long_description_content_type='text/markdown',
