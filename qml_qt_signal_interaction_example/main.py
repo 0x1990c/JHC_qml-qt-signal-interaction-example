@@ -1,8 +1,7 @@
 import os
 import sys
 
-from PyQt5 import QtCore
-from PyQt5.QtCore import Qt, QUrl
+from PyQt5.QtCore import Qt, QUrl, QSettings
 from PyQt5.QtQuickWidgets import QQuickWidget
 from PyQt5.QtWidgets import QWidget, QLabel, QApplication, QMainWindow, QVBoxLayout
 
@@ -44,7 +43,7 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     default_style = "Material"
 
-    settings = QtCore.QSettings()
+    settings = QSettings()
     style = settings.value("style")
     if not style:
         style = default_style
