@@ -1,6 +1,13 @@
 # qml-qt-signal-interaction-example
 QML, QT interaction with signal example (using PyQt)
 
+## Detailed Description
+Simple PyQt GUI except for QML type Slider.
+
+Slider sends the "moved" event when handle being moved as you can see the `slider.qml`'s code.
+
+PyQt script(`main.py`) gets that event and handles it properly. In this case, it changes the QLabel's text.
+
 ## Requirements
 * PyQt5 >= 5.12 - for using `onMoved` event of QML Slider (supported since QtQuick.Controls 2.2/Qt 5.9)
 
