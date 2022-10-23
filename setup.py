@@ -12,6 +12,6 @@ setup(
     url='https://github.com/yjg30737/qml-qt-signal-interaction-example.git',
     long_description_content_type='text/markdown',
     install_requires=[
-        'PyQt'
+        'PyQt5>=5.12'
     ]
 )
