@@ -2,9 +2,11 @@
 QML, QT interaction with signal example (using PyQt)
 
 ## Detailed Description
-Simple PyQt GUI except for QML type Slider.
+Simple PyQt GUI except for QML type `Slider`.
 
-Slider sends the "moved" event when handle being moved as you can see the `slider.qml`'s code.
+This example uses the qml class such as Slider in the PyQt script by using `QQuickView` class of Qt.
+
+Not only that, slider sends the "moved" event when handle being moved as you can see the `slider.qml`'s code.
 
 PyQt script(`main.py`) gets that event and handles it properly. In this case, it changes the QLabel's text.
 
